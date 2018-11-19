@@ -1,8 +1,22 @@
-# porto
-portfolio
+# Porto
 
+Portfolio based on a Middleman platform
 
-#Start the project
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Give examples
+```
+
+### Installing
+
+Start the project
 ```
 cd MY_PROJECT
 middleman server
@@ -21,3 +35,4 @@ middleman build
 ```
 
 This will compile your templates and output a stand-alone site which can be easily hosted or delivered to your client. The build step can also compress images, employ JavaScript & CSS dependency management, minify JavaScript & CSS and run additional code of your choice. Take a look at the `config.rb` file to see some of the most common extensions which can be activated.
+```
