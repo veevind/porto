@@ -14,11 +14,14 @@ body {
 
 .hero {
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   padding: 0;
   text-align: center;
   color: #fbc547;
   letter-spacing: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   h1 {
     margin: 0px;
