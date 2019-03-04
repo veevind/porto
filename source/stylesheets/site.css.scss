@@ -1,41 +1,40 @@
-body {
-  // background-color: #fbc547;
-  color: #333;
-  // font-family: "freight-big-pro", serif;
-  margin: 0;
-  // font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-  //   "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-  //   "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-  //   "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  background-image: url("https://images.unsplash.com/photo-1536657689560-671d0d8b5f07?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34be428dac5cbb03d16dd3a2db70f398&auto=format&fit=crop&w=3967&q=80");
-  background-size: cover;
-  padding: 10px;
+@import "base/variables";
+@import "base/typography";
+@import "base/fonts";
+@import "base/utility-colors";
+@import "base/shapes";
+
+@import "components/header";
+@import "components/hero";
+
+html {
+  box-sizing: border-box;
 }
 
-.hero {
-  width: 100vw;
-  height: 100vh;
+body {
+  margin: 0;
   padding: 0;
-  text-align: center;
-  color: #fbc547;
-  letter-spacing: -5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow-x: hidden;
+  background-color: #F1F1F1;
+  font-family: "Helvetica", -apple-system, BlinkMacSystemFont, "Avenir Next",
+    "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica",
+    "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+}
 
-  h1 {
-    margin: 0px;
-    font-family: freight-big-pro, serif;
-    font-weight: 300;
-    font-size: 300px;
-    line-height: 0.8;
-  }
 
-  h3 {
-    margin: 0;
-    font-family: freight-big-pro, serif;
-    font-weight: 300;
-    font-size: 80px;
-    letter-spacing: -2px;
+li {
+  list-style-type: none;
+}
+
+a {
+  color: none;
+  text-decoration: none;
+
+  &:focus,
+  &:visited,
+  &:hover {
+    color: none;
+    text-decoration: none;
   }
 }
