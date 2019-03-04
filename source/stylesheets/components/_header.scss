@@ -1,0 +1,16 @@
+
+.header {
+  background-color: #fff;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fiftysplit:last-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  flex-direction: column;
+}
